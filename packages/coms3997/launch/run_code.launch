@@ -13,8 +13,8 @@
     <!-- end args -->
 
     <arg name="pkg_name" value="coms3997"/>
-    <arg name="node_name1" default="AlwaysNoSign"/>
-    <arg name="node_name2" default="StopOrStraight"/>
+    <arg name="node_name1" default="StopOrStraight"/>
+    <arg name="node_name2" default="AlwaysNoSign"/>
     <arg name="node_name3" default="virtual_joystick"/>
     <group ns="$(arg veh)">  
         <node  name="$(arg node_name1)" pkg="$(arg pkg_name)" type="$(arg node_name1).py" output="screen">

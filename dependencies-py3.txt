@@ -1,4 +1,6 @@
 # LIST YOUR PYTHON3 PACKAGES HERE
 numpy
 opencv-python
-
+apriltag
+# keras
+# tensorflow

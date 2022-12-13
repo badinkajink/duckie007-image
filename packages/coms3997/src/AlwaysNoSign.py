@@ -2,6 +2,7 @@
 import cv2
 import numpy as np
 import rospy
+import time
 
 from sensor_msgs.msg import CompressedImage, Image
 from std_msgs.msg import Bool
@@ -36,7 +37,7 @@ if __name__ == "__main__":
     rospy.init_node("always_no_sign_node", anonymous=False)
 
     # Create the object
-    node = StopOrStraight()
+    node = AlwaysNoSign()
 
     # Since we don't have a main that runs forever and instead just process images
     # we need to put this spin here so it runs forever
